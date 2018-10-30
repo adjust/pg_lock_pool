@@ -1,0 +1,5 @@
+# pg_lock_pool extension
+comment = 'wait on a lock pool'
+default_version = '0.0.1'
+relocatable = true
+requires = ''

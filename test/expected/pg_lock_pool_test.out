@@ -1,0 +1,32 @@
+SELECT get_lock_pool(999,3,1);
+ get_lock_pool 
+---------------
+             1
+(1 row)
+
+SELECT get_lock_pool(999,3);
+ get_lock_pool 
+---------------
+             1
+(1 row)
+
+SELECT pg_advisory_unlock(999,1);
+ pg_advisory_unlock 
+--------------------
+ t
+(1 row)
+
+BEGIN;
+SELECT get_xact_lock_pool(999,3,1);
+ get_xact_lock_pool 
+--------------------
+                  1
+(1 row)
+
+SELECT get_xact_lock_pool(999,3);
+ get_xact_lock_pool 
+--------------------
+                  1
+(1 row)
+
+END;
