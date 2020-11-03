@@ -1,3 +1,5 @@
+![Build Status](https://github.com/adjust/pg_lock_pool/workflows/CI/badge.svg)
+
 # pg_lock_pool
 
 A postgres Extension to wait on a lock pool
