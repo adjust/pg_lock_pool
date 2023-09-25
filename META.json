@@ -1,0 +1,38 @@
+{
+   "name": "lock_pool",
+   "abstract": "To wait on a lock pool",
+   "version": "0.0.1",
+   "maintainer": [ "Artur Zakirov <artur.zakirov@adjust.com>", "Manuel Kniep <rapimo@adjust.com>" ],
+   "license": {
+      "PostgreSQL": "http://www.postgresql.org/about/licence"
+   },
+   "provides": { 
+      "lock_poo": {
+         "file": "sql/pg_lock_pool.sql",
+         "version": "0.0.1",
+         "abstract": "Integers represented in base62"
+      }
+   },
+   "meta-spec": {
+     "version": "0.0.1",
+     "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "description": "To wait on a lock pool",
+   "prereqs": {
+      "runtime": {
+        "requires": {
+           "PostgreSQL": "9.3.0"
+        }
+      }
+   },
+   "resources": {
+       "bugtracker": {
+           "web": "http://github.com/adjust/pg_lock_pool/issues"
+       },
+       "repository": {
+          "url": "git://github.com/adjust/pg_lock_pool.git",
+          "web": "http://github.com/adjust/pg_lock_pool",
+          "type": "git"
+       }
+   }
+}
