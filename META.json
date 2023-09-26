@@ -9,7 +9,7 @@
       "lock_poo": {
          "file": "sql/pg_lock_pool.sql",
          "version": "0.0.1",
-         "abstract": "Integers represented in base62"
+         "abstract": "To wait on a lock pool"
       }
    },
    "meta-spec": {
