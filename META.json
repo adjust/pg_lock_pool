@@ -6,7 +6,7 @@
       "PostgreSQL": "http://www.postgresql.org/about/licence"
    },
    "provides": { 
-      "lock_poo": {
+      "lock_pool": {
          "file": "sql/pg_lock_pool.sql",
          "version": "0.0.1",
          "abstract": "To wait on a lock pool"
