@@ -2,7 +2,6 @@
    "name": "lock_pool",
    "abstract": "To wait on a lock pool",
    "version": "0.0.1",
-   "maintainer": [ "Artur Zakirov <artur.zakirov@adjust.com>", "Manuel Kniep <rapimo@adjust.com>" ],
    "license": {
       "PostgreSQL": "http://www.postgresql.org/about/licence"
    },
