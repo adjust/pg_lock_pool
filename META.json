@@ -1,5 +1,6 @@
 {
    "name": "lock_pool",
+   "author": "adjustgmbh",
    "abstract": "To wait on a lock pool",
    "version": "0.0.1",
    "license": {
@@ -13,14 +14,14 @@
       }
    },
    "meta-spec": {
-     "version": "0.0.1",
+     "version": "1.0.0",
      "url": "http://pgxn.org/meta/spec.txt"
    },
    "description": "To wait on a lock pool",
    "prereqs": {
       "runtime": {
         "requires": {
-           "PostgreSQL": "9.3.0"
+           "PostgreSQL": "10.0"
         }
       }
    },
