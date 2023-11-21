@@ -3,6 +3,9 @@
    "author": "adjustgmbh",
    "abstract": "To wait on a lock pool",
    "version": "0.0.1",
+   "maintainer" : [
+      "adjustgmbh"
+   ],
    "license": {
       "PostgreSQL": "http://www.postgresql.org/about/licence"
    },
@@ -21,7 +24,7 @@
    "prereqs": {
       "runtime": {
         "requires": {
-           "PostgreSQL": "10.0"
+           "PostgreSQL": "10.0.0"
         }
       }
    },
