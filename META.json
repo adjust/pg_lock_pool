@@ -1,6 +1,5 @@
 {
    "name": "lock_pool",
-   "author": "adjustgmbh",
    "abstract": "To wait on a lock pool",
    "version": "0.0.1",
    "maintainer" : [
